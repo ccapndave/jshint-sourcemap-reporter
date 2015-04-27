@@ -1,0 +1,24 @@
+{
+  "name": "jshint-sourcemap-reporter",
+  "version": "0.0.1",
+  "description": "A JSHint compatible sourcemap reporter that supports sourcemaps and allows click-to-source in WebStorm and IntelliJ.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jshint",
+    "sourcemap",
+    "reporter",
+    "intellij",
+    "webstorm"
+  ],
+  "author": "Dave Keen",
+  "repository": "ccapndave/jshint-sourcemap-reporter",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "log-symbols": "^1.0.2",
+    "source-map": "^0.4.2"
+  }
+}
